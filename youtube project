@@ -1,76 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+  <title> Youtube replica</title>
+  
+  <link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
 
-  <head>
-    <title> Youtube replica</title>
-
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
-  </head>
-
-  <body>
-
+<body>
 
 
-    <div class="navbar_contanier">
-      <ul class="navbar">
 
-        <li class="logo">
-          <a href='https://www.youtube.com'><img src=https://github.com/dstodolny/odintube/blob/master/img/logo.png?raw=true> </a>
-        </li>
+ <div class = "navbar_contanier">
+    <ul class = "navbar"> 
+   
+  <li class ="logo"><a href = 'https://www.youtube.com'><img src=https://github.com/dstodolny/odintube/blob/master/img/logo.png?raw=true> </a></li>
+    
+    <li> <img class = "upload"> upload </li>
+    
+    <form>
+				<input>
+				<button><img src="https://github.com/krjordan/odin-project/blob/master/video-project/img/glyphicons-28-search.png?raw=true"></button>
+			</form>
+    
+    
+  
+    <li><a href ="#"><img class = "avatar" src= "https://github.com/krjordan/odin-project/blob/master/video-project/img/avatar.jpg?raw=true" alt= "avatar"><a></li>
+    
+    
+    </ul>
+</div>        
 
-        <li> <img class="upload"> upload </li>
-        <li class="search">
-          <a href="#"></a><img src=h ttps://github.com/krjordan/odin-project/blob/master/video-project/img/glyphicons-28-search.png?raw=true></li>
 
-        <li>
-          <a href="#"><img class="avatar" src=https://yt3.ggpht.com/-6ThkgTxmt_8/AAAAAAAAAAI/AAAAAAAAAAA/VqVj8z3E0N0/s88-c-k-no-rj-c0xffffff/photo.jpg alt="avatar">
-            <a></li>
-
-
-      </ul>
-    </div>
-
-
-    <div id=p age_container>
-      <div id=v ideo container>
-        <iframe width="854" height="480" src="https://www.youtube.com/embed/V74l_zS1x8E" frameborder="0" allowfullscreen></iframe>
+      
+  <div id = page_container>
+        <div id= video container>
+          <iframe width="854" height="480" src="https://www.youtube.com/embed/V74l_zS1x8E" frameborder="0" allowfullscreen></iframe>
+          </div>
       </div>
-    </div>
-    <div id=t itle>
-      <a href="#"><img class="title" src="https://github.com/krjordan/odin-project/blob/master/video-project/img/title.png?raw=true" alt="Video title" width='px'>
-      </a>
+<div id = title >
+        <a href="#"><img class="title" src="https://github.com/krjordan/odin-project/blob/master/video-project/img/title.png?raw=true" alt = "Video title" width = 'px'>
+        </a>
+        
+      </div>
 
-    </div>
+<div id = description>
+  <a href="#"><img class = "description" src = "https://github.com/krjordan/odin-project/blob/master/video-project/img/description.png?raw=true" alt = "Description">
+  </a>
+<aside>
+    <a href ="#"><img src = "https://github.com/krjordan/odin-project/blob/master/video-project/img/sidebar.png?raw=true" alt = "Video Selections">
+  </aside>
 
-    <div id=d escription>
-      <a href="#"><img class="description" src="https://github.com/krjordan/odin-project/blob/master/video-project/img/description.png?raw=true" alt="Description">
-      </a>
-      <aside>
-        <a href="#"><img src=https://github.com/krjordan/odin-project/blob/master/video-project/img/sidebar.png?raw=true alt="Video Selections">
-      </aside>
-
-      <footer>
-        <a href="#"><img class="logo" src="img/youtube.png" alt="YouTube logo"></a>
-        <br />
-        <br />
-        <ul>
-          <li><a href="#"><strong>About</strong></a></li>
-          <li><a href="#"><strong>Press</strong></a></li>
-          <li><a href="#"><strong>Copyright</strong></a></li>
-          <li><a href="#"><strong>Creators</strong></a></li>
-          <li><a href="#"><strong>Avertise</strong></a></li>
-          <li><a href="#"><strong>Developers</strong></a></li>
-          <li><a href="#"><strong>+YouTube</strong></a></li>
-        </ul>
-        <ul id='footer-2'>
-          <li><a href="#"><small>Terms</small></a></li>
-          <li><a href="#"><small>Privacy</small></a></li>
-          <li><a href="#"><small>Policy & Safety</small></a></li>
-          <li><a href="#"><small>Send feedback</small></a></li>
-          <li><a href="#"><small>Try something new!</small></a></li>
-        </ul>
-      </footer>
-  </body>
-
+<footer>
+  <a href="#"><img class="logo" src="https://github.com/dstodolny/odintube/blob/master/img/logo.png?raw=true" alt="YouTube logo"></a><br /><br />
+		<ul>
+			<li><a href="#"><strong>About</strong></a></li>
+			<li><a href="#"><strong>Press</strong></a></li>
+			<li><a href="#"><strong>Copyright</strong></a></li>
+			<li><a href="#"><strong>Creators</strong></a></li>
+			<li><a href="#"><strong>Avertise</strong></a></li>
+			<li><a href="#"><strong>Developers</strong></a></li>
+			<li><a href="#"><strong>+YouTube</strong></a></li>
+		</ul>
+		<ul id='footer-2'>
+			<li><a href="#"><small>Terms</small></a></li>
+			<li><a href="#"><small>Privacy</small></a></li>
+			<li><a href="#"><small>Policy & Safety</small></a></li>
+			<li><a href="#"><small>Send feedback</small></a></li>
+			<li><a href="#"><small>Try something new!</small></a></li>
+		</ul>
+	</footer>
+</body>
 </html>
